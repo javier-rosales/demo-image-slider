@@ -11,20 +11,26 @@
 <body>
     <div class="container">
         <div class="slider-wrapper">
+            <button class="slider-button previous">
+                <span class="material-symbols-outlined">arrow_left</span>
+            </button>
+            <button class="slider-button forward">
+                <span class="material-symbols-outlined size-48">arrow_right</span>
+            </button>
             <div class="slider">
-                <img id="image-1" src="images/the-witcher-3.jpg" alt="The Witcher 3: Wild Hunt">
-                <img id="image-2" src="images/red-dead-redemption-2.jpg" alt="Red Dead Redemption 2">
-                <img id="image-3" src="images/cyberpunk-2077.jpg" alt="Cyberpunk 2077">
-                <img id="image-4" src="images/dark-souls-3.jpg" alt="Dark Souls 3">
-                <img id="image-5" src="images/resident-evil-4-remake.jpg" alt="Resident Evil 4 Remake">
+                <img class="slider-image" data-item-index="1" src="images/the-witcher-3.jpg" alt="The Witcher 3: Wild Hunt">
+                <img class="slider-image" data-item-index="2" src="images/red-dead-redemption-2.jpg" alt="Red Dead Redemption 2">
+                <img class="slider-image" data-item-index="3" src="images/cyberpunk-2077.jpg" alt="Cyberpunk 2077">
+                <img class="slider-image" data-item-index="4" src="images/dark-souls-3.jpg" alt="Dark Souls 3">
+                <img class="slider-image" data-item-index="5" src="images/resident-evil-4-remake.jpg" alt="Resident Evil 4 Remake">
             </div>
-            <div class="slider-nav">
-                <a href="#image-1"></a>
-                <a href="#image-2"></a>
-                <a href="#image-3"></a>
-                <a href="#image-4"></a>
-                <a href="#image-5"></a>
-            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="slider-nav-item active" data-item-index="1"></button>
+            <button class="slider-nav-item" data-item-index="2"></button>
+            <button class="slider-nav-item" data-item-index="3"></button>
+            <button class="slider-nav-item" data-item-index="4"></button>
+            <button class="slider-nav-item" data-item-index="5"></button>
         </div>
     </div>
 </body>
